@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on カイハツNoヒト</title>
+    <link>/tags/github/</link>
+    <description>Recent content in GitHub on カイハツNoヒト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日記：GitHub Page で個人ポータル</title>
+      <link>/posts/2021/03/2021-03-21-my-1st-github-page/</link>
+      <pubDate>Sun, 21 Mar 2021 23:00:00 +0900</pubDate>
+      
+      <guid>/posts/2021/03/2021-03-21-my-1st-github-page/</guid>
+      <description>はじめに&amp;hellip; Gitの開発が 2005年に開始され、2008年にはGitHubが登場しました。 当時、私は「音声対話システム」を作って</description>
+    </item>
+    
+  </channel>
+</rss>

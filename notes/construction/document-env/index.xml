@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes &gt; 構築 &gt; ドキュメント執筆環境 on カイハツNoヒト</title>
+    <link>/notes/construction/document-env/</link>
+    <description>Recent content in Notes &gt; 構築 &gt; ドキュメント執筆環境 on カイハツNoヒト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/notes/construction/document-env/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AsciiDoc 執筆環境構築</title>
+      <link>/notes/construction/document-env/001/</link>
+      <pubDate>Sun, 21 Mar 2021 23:00:00 +0900</pubDate>
+      
+      <guid>/notes/construction/document-env/001/</guid>
+      <description>はじめに この文書では、Windows10 環境において、Asciidoctor の 公式Dockerイメージを中心に、 VSCodeの拡張機能 「As</description>
+    </item>
+    
+  </channel>
+</rss>

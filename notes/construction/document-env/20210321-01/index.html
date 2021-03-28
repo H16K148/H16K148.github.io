@@ -96,10 +96,6 @@
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
@@ -108,22 +104,6 @@
         #theme-toggle,
         .top-link {
             display: none;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-            .list {
-                background: var(--theme);
-            }
         }
     </style>
 </noscript>
@@ -513,7 +493,7 @@ AsciiDoc 執筆環境の構築方法などを紹介します。</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="whole-system-image.svg" alt="whole system image" width="839" height="511"/>
+<img src="./whole-system-image.svg" alt="whole system image" width="839" height="511"/>
 </div>
 <div class="title">図 1. システム構成イメージ</div>
 </div>
@@ -783,6 +763,13 @@ asciidoctor-pdf で svg 形式画像を出力する際、svg 形式画像に日�
     <ul class="post-tags">
       <li><a href="/tags/asciidoctor/">Asciidoctor</a></li>
     </ul>
+    <nav class="paginav">
+      <a class="prev" href="/notes/construction/document-env/20210324-01/">
+        <span class="title">« 前のページ</span>
+        <br>
+        <span>hadv-book 構築 - その１</span>
+      </a>
+    </nav>
 
 
 

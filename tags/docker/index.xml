@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on カイハツNoヒト</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in Docker on カイハツNoヒト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 24 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hadv-book 構築 - その１</title>
+      <link>/notes/construction/document-env/20210324-01/</link>
+      <pubDate>Wed, 24 Mar 2021 23:00:00 +0900</pubDate>
+      
+      <guid>/notes/construction/document-env/20210324-01/</guid>
+      <description>はじめに hadv とは何か hadvとは、Hugo, Asciidoctor, Docker, VSCodeを上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。 ちなみに、</description>
+    </item>
+    
+  </channel>
+</rss>

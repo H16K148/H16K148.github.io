@@ -5,14 +5,14 @@
     <link>/tags/vscode/</link>
     <description>Recent content in VSCode on カイハツNoヒト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hadv-book 構築 - その１</title>
       <link>/notes/construction/document-env/20210324-01/</link>
-      <pubDate>Wed, 24 Mar 2021 23:00:00 +0900</pubDate>
+      <pubDate>Sun, 28 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/document-env/20210324-01/</guid>
-      <description>はじめに hadv とは何か hadvとは、Hugo, Asciidoctor, Docker, VSCodeを上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。 ちなみに、</description>
+      <description>はじめに hadv とは何か hadv とは、Hugo, Asciidoctor, Docker, VSCode を上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。2021 年 3 月時点でこのよ</description>
     </item>
     
   </channel>

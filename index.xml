@@ -5,14 +5,14 @@
     <link>/</link>
     <description>Recent content on カイハツNoヒト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hadv-book 構築 - その１</title>
       <link>/notes/construction/document-env/20210324-01/</link>
-      <pubDate>Wed, 24 Mar 2021 23:00:00 +0900</pubDate>
+      <pubDate>Sun, 28 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/document-env/20210324-01/</guid>
-      <description>はじめに hadv とは何か hadvとは、Hugo, Asciidoctor, Docker, VSCodeを上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。 ちなみに、</description>
+      <description>はじめに hadv とは何か hadv とは、Hugo, Asciidoctor, Docker, VSCode を上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。2021 年 3 月時点でこのよ</description>
     </item>
     
     <item>
@@ -40,15 +40,6 @@
       
       <guid>/posts/2021/03/2021-03-21-my-1st-github-page/</guid>
       <description>はじめに&amp;hellip; Gitの開発が 2005年に開始され、2008年にはGitHubが登場しました。 当時、私は「音声対話システム」を作って</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>/portfolio/</link>
-      <pubDate>Mon, 01 Mar 2021 23:00:00 +0900</pubDate>
-      
-      <guid>/portfolio/</guid>
-      <description>作成中 作成中</description>
     </item>
     
     <item>

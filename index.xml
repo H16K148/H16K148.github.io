@@ -5,7 +5,16 @@
     <link>/</link>
     <description>Recent content on カイハツNoヒト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>データサイエンス学習のための Python 環境構築</title>
+      <link>/notes/construction/learn-env/20210331-01/</link>
+      <pubDate>Wed, 31 Mar 2021 23:00:00 +0900</pubDate>
+      
+      <guid>/notes/construction/learn-env/20210331-01/</guid>
+      <description>この文書はまだドラフトです。 はじめに 必須要件 以下が可能な環境を構築する 書籍「 Python による AI プログラミング入門 」による学習に必要な Python 環境 1. インスト</description>
+    </item>
+    
     <item>
       <title>hadv-book 構築 - その１</title>
       <link>/notes/construction/document-env/20210328-01/</link>
@@ -40,6 +49,15 @@
       
       <guid>/posts/2021/03/2021-03-21-my-1st-github-page/</guid>
       <description>はじめに&amp;hellip; Gitの開発が 2005年に開始され、2008年にはGitHubが登場しました。 当時、私は「音声対話システム」を作って</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>/portfolio/</link>
+      <pubDate>Mon, 01 Mar 2021 23:00:00 +0900</pubDate>
+      
+      <guid>/portfolio/</guid>
+      <description>作成中 作成中</description>
     </item>
     
     <item>

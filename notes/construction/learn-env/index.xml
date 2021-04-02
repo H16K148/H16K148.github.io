@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes &gt; 構築 &gt; 学習環境 on カイハツNoヒト</title>
+    <title>学習環境 on カイハツNoヒト</title>
     <link>/notes/construction/learn-env/</link>
-    <description>Recent content in Notes &gt; 構築 &gt; 学習環境 on カイハツNoヒト</description>
+    <description>Recent content in 学習環境 on カイハツNoヒト</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 31 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/notes/construction/learn-env/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <pubDate>Wed, 31 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/learn-env/20210331-01/</guid>
-      <description>この文書はまだドラフトです。 はじめに 必須要件 以下が可能な環境を構築する 書籍「 Python による AI プログラミング入門 」による学習に必要な Python 環境 1. インスト</description>
+      <description>Python3&#43;Docker&#43;VSCode で作る学習環境 - 2021/3</description>
     </item>
     
   </channel>

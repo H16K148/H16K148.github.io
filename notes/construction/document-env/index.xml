@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes &gt; 構築 &gt; ドキュメント執筆環境 on カイハツNoヒト</title>
+    <title>ドキュメント環境 on カイハツNoヒト</title>
     <link>/notes/construction/document-env/</link>
-    <description>Recent content in Notes &gt; 構築 &gt; ドキュメント執筆環境 on カイハツNoヒト</description>
+    <description>Recent content in ドキュメント環境 on カイハツNoヒト</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/notes/construction/document-env/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <pubDate>Sun, 28 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/document-env/20210328-01/</guid>
-      <description>はじめに hadv とは何か hadv とは、Hugo, Asciidoctor, Docker, VSCode を上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。2021 年 3 月時点でこのよ</description>
+      <description>hadv（Hugo&#43;Asciidoctor&#43;Docker&#43;VSCode）で作るドキュメント執筆環境</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Sun, 21 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/document-env/20210321-01/</guid>
-      <description>はじめに この文書では、Windows10 環境において、Asciidoctor の 公式Dockerイメージを中心に、 VSCodeの拡張機能 「As</description>
+      <description>Windows10 環境で Docker を使って Asciidoc を執筆する環境を作ります。</description>
     </item>
     
   </channel>

@@ -6,14 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>hadv-book 構築 - その１ | カイハツNoヒト</title>
-
 <meta name="keywords" content="Hugo, Asciidoctor, Docker, VSCode" />
 <meta name="description" content="hadv（Hugo&#43;Asciidoctor&#43;Docker&#43;VSCode）で作るドキュメント執筆環境">
 <meta name="author" content="H16K148">
 <link rel="canonical" href="/notes/construction/document-env/20210328-01/" />
-<link href="/assets/css/stylesheet.min.926e26731b3c362becfc9a449c4943724dfacb764b291e0afc68ed415eaf5acd.css" integrity="sha256-km4mcxs8Nivs/JpEnElDck36y3ZLKR4K/GjtQV6vWs0=" rel="preload stylesheet"
-    as="style">
-
+<link href="/assets/css/stylesheet.min.27ac2dac076384c5141091eb2f4d35303a16016e419e00e5efbffdd364b24f51.css" integrity="sha256-J6wtrAdjhMUUEJHrL001MDoWAW5BngDl77/902SyT1E=" rel="preload stylesheet" as="style">
 <link rel="icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -22,14 +19,13 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.0" />
-
-
 <meta property="og:title" content="hadv-book 構築 - その１" />
 <meta property="og:description" content="hadv（Hugo&#43;Asciidoctor&#43;Docker&#43;VSCode）で作るドキュメント執筆環境" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/notes/construction/document-env/20210328-01/" />
-<meta property="article:published_time" content="2021-03-28T23:00:00+09:00" />
-<meta property="article:modified_time" content="2021-03-28T23:00:00+09:00" />
+<meta property="og:url" content="/notes/construction/document-env/20210328-01/" /><meta property="article:section" content="notes" />
+<meta property="article:published_time" content="2021-03-28T23:00:00&#43;09:00" />
+<meta property="article:modified_time" content="2021-03-28T23:00:00&#43;09:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hadv-book 構築 - その１"/>
 <meta name="twitter:description" content="hadv（Hugo&#43;Asciidoctor&#43;Docker&#43;VSCode）で作るドキュメント執筆環境"/>
@@ -55,7 +51,7 @@
   "@type": "BlogPosting",
   "headline": "hadv-book 構築 - その１",
   "name": "hadv-book 構築 - その１",
-  "description": "はじめに hadv とは何か hadv とは、Hugo, Asciidoctor, Docker, VSCode を上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。2021 年 3 月時点でこのよ",
+  "description": "hadv（Hugo+Asciidoctor+Docker+VSCode）で作るドキュメント執筆環境",
   "keywords": [
     "Hugo", "Asciidoctor", "Docker", "VSCode"
   ],
@@ -81,14 +77,7 @@
     }
   }
 }
-</script>
-
-
-
-
-
-
-<script src="https://kit.fontawesome.com/d30a47c554.js" crossorigin="anonymous"></script>
+</script><script src="https://kit.fontawesome.com/d30a47c554.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -105,8 +94,10 @@
         .top-link {
             display: none;
         }
+
     </style>
 </noscript>
+
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -132,8 +123,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                
-                
             </span>
         </div>
         <ul id="menu" onscroll="menu_on_scroll()">
@@ -171,68 +160,79 @@
                 <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
-            </li></ul>
+            </li>
+        </ul>
     </nav>
 </header>
-
-    <main class="main">
+<main class="main">
 
 <article class="post-single">
   <header class="post-header">
-<div class="breadcrumbs">
-
-    <a href="/">Home</a>
-</div>
-
+    <div class="breadcrumbs"><a href="/">Home</a></div>
     <h1 class="post-title">
       hadv-book 構築 - その１
     </h1>
     <div class="post-description">
       hadv（Hugo&#43;Asciidoctor&#43;Docker&#43;VSCode）で作るドキュメント執筆環境
     </div>
-    <div class="post-meta">
-
-March 28, 2021&nbsp;·&nbsp;7 分&nbsp;·&nbsp;H16K148
-
+    <div class="post-meta">March 28, 2021&nbsp;·&nbsp;7 分&nbsp;·&nbsp;H16K148
 </div>
-  </header> 
-
-  <div class="toc">
+  </header> <div class="toc">
     <details >
-      <summary accesskey="c" title="(Alt + C)">
-        <div class="details">Table of Contents</div>
-      </summary>
-      <div class="inner"><ul><li>
-        <a href="#_%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="はじめに">はじめに</a><ul>
-            <li>
-        <a href="#_hadv_%e3%81%a8%e3%81%af%e4%bd%95%e3%81%8b" aria-label="hadv とは何か">hadv とは何か</a></li><li>
-        <a href="#_hadv_%e3%81%ae%e7%89%b9%e5%be%b4" aria-label="hadv の特徴">hadv の特徴</a></li><li>
-        <a href="#_%e3%81%93%e3%81%ae%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" aria-label="このドキュメントについて">このドキュメントについて</a></li></ul>
-    </li><li>
-        <a href="#_1_dev_container_%e3%81%ae%e6%a7%8b%e7%af%89" aria-label="1. Dev Container の構築">1. Dev Container の構築</a><ul>
-            <li>
-        <a href="#_1_1_%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%83%bc%e6%a7%8b%e6%88%90%e5%9b%b3" aria-label="1-1. ファイル・フォルダー構成図">1-1. ファイル・フォルダー構成図</a></li><li>
-        <a href="#_1_2_dev_container_%e3%81%ae%e8%b5%b7%e5%8b%95%e6%96%b9%e6%b3%95" aria-label="1-2. Dev Container の起動方法">1-2. Dev Container の起動方法</a></li><li>
-        <a href="#_1_3_dev_container_%e3%82%92%e8%b5%b7%e5%8b%95%e3%81%99%e3%82%8b" aria-label="1-3. Dev Container を起動する">1-3. Dev Container を起動する</a></li><li>
-        <a href="#_1_4_hadv_asciidoctor_%e3%82%b3%e3%83%b3%e3%83%86%e3%83%8a%e3%81%ae_hugo_%e3%82%92%e5%ae%9f%e8%a1%8c%e3%81%99%e3%82%8b" aria-label="1-4. hadv-asciidoctor コンテナの hugo を実行する">1-4. hadv-asciidoctor コンテナの hugo を実行する</a></li><li>
-        <a href="#_1_5_%e5%90%84%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%86%85%e5%ae%b9" aria-label="1-5. 各ファイルの内容">1-5. 各ファイルの内容</a><ul>
-            <li>
-        <a href="#_1_hadv_asciidoctordockerfile" aria-label="[1] hadv-asciidoctor/Dockerfile">[1] hadv-asciidoctor/Dockerfile</a></li><li>
-        <a href="#_2_hadv_asciidoctorhugo" aria-label="[2] hadv-asciidoctor/hugo">[2] hadv-asciidoctor/hugo</a></li><li>
-        <a href="#_3_hadv_hugodockerfile" aria-label="[3] hadv-hugo/Dockerfile">[3] hadv-hugo/Dockerfile</a></li><li>
-        <a href="#_4_hadv_hugoasciidoctor" aria-label="[4] hadv-hugo/asciidoctor">[4] hadv-hugo/asciidoctor</a></li><li>
-        <a href="#_5_devcontainer_json" aria-label="[5] devcontainer.json">[5] devcontainer.json</a></li><li>
-        <a href="#_6_docker_compose_yml" aria-label="[6] docker-compose.yml">[6] docker-compose.yml</a></li></ul>
-    </li></ul>
-    </li><li>
-        <a href="#_2_%e3%81%93%e3%81%ae%e6%ac%a1%e3%81%ab%e3%81%99%e3%82%8b%e3%81%93%e3%81%a8" aria-label="2. この次にすること">2. この次にすること</a></li><li>
-        <a href="#_3_%e5%8f%82%e8%80%83%e3%83%aa%e3%83%b3%e3%82%af" aria-label="3. 参考リンク">3. 参考リンク</a></li></ul>
-      </div>
+        <summary accesskey="c" title="(Alt + C)">
+            <div class="details">目次</div>
+        </summary>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#_%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="はじめに">はじめに</a><ul>
+                        
+                <li>
+                    <a href="#_hadv_%e3%81%a8%e3%81%af%e4%bd%95%e3%81%8b" aria-label="hadv とは何か">hadv とは何か</a></li>
+                <li>
+                    <a href="#_hadv_%e3%81%ae%e7%89%b9%e5%be%b4" aria-label="hadv の特徴">hadv の特徴</a></li>
+                <li>
+                    <a href="#_%e3%81%93%e3%81%ae%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" aria-label="このドキュメントについて">このドキュメントについて</a></li></ul>
+                </li>
+                <li>
+                    <a href="#_1_dev_container_%e3%81%ae%e6%a7%8b%e7%af%89" aria-label="1. Dev Container の構築">1. Dev Container の構築</a><ul>
+                        
+                <li>
+                    <a href="#_1_1_%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%83%bc%e6%a7%8b%e6%88%90%e5%9b%b3" aria-label="1-1. ファイル・フォルダー構成図">1-1. ファイル・フォルダー構成図</a></li>
+                <li>
+                    <a href="#_1_2_dev_container_%e3%81%ae%e8%b5%b7%e5%8b%95%e6%96%b9%e6%b3%95" aria-label="1-2. Dev Container の起動方法">1-2. Dev Container の起動方法</a></li>
+                <li>
+                    <a href="#_1_3_dev_container_%e3%82%92%e8%b5%b7%e5%8b%95%e3%81%99%e3%82%8b" aria-label="1-3. Dev Container を起動する">1-3. Dev Container を起動する</a></li>
+                <li>
+                    <a href="#_1_4_hadv_asciidoctor_%e3%82%b3%e3%83%b3%e3%83%86%e3%83%8a%e3%81%ae_hugo_%e3%82%92%e5%ae%9f%e8%a1%8c%e3%81%99%e3%82%8b" aria-label="1-4. hadv-asciidoctor コンテナの hugo を実行する">1-4. hadv-asciidoctor コンテナの hugo を実行する</a></li>
+                <li>
+                    <a href="#_1_5_%e5%90%84%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%86%85%e5%ae%b9" aria-label="1-5. 各ファイルの内容">1-5. 各ファイルの内容</a><ul>
+                        
+                <li>
+                    <a href="#_1_hadv_asciidoctordockerfile" aria-label="[1] hadv-asciidoctor/Dockerfile">[1] hadv-asciidoctor/Dockerfile</a></li>
+                <li>
+                    <a href="#_2_hadv_asciidoctorhugo" aria-label="[2] hadv-asciidoctor/hugo">[2] hadv-asciidoctor/hugo</a></li>
+                <li>
+                    <a href="#_3_hadv_hugodockerfile" aria-label="[3] hadv-hugo/Dockerfile">[3] hadv-hugo/Dockerfile</a></li>
+                <li>
+                    <a href="#_4_hadv_hugoasciidoctor" aria-label="[4] hadv-hugo/asciidoctor">[4] hadv-hugo/asciidoctor</a></li>
+                <li>
+                    <a href="#_5_devcontainer_json" aria-label="[5] devcontainer.json">[5] devcontainer.json</a></li>
+                <li>
+                    <a href="#_6_docker_compose_yml" aria-label="[6] docker-compose.yml">[6] docker-compose.yml</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#_2_%e3%81%93%e3%81%ae%e6%ac%a1%e3%81%ab%e3%81%99%e3%82%8b%e3%81%93%e3%81%a8" aria-label="2. この次にすること">2. この次にすること</a></li>
+                <li>
+                    <a href="#_3_%e5%8f%82%e8%80%83%e3%83%aa%e3%83%b3%e3%82%af" aria-label="3. 参考リンク">3. 参考リンク</a>
+                </li>
+            </ul>
+        </div>
     </details>
-  </div>
+</div>
+
   <div class="post-content asciidoc-content" ontouchstart="">
   
-
 <div class="sect1">
 <h2 id="_はじめに">はじめに<a hidden class="anchor" aria-hidden="true" href="#_はじめに">#</a></h2>
 <div class="sectionbody">
@@ -688,8 +688,8 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
     </span><span style="color: #d14">&#34;esbenp.prettier-vscode&#34;</span><span style="background-color: #f8f8f8">,</span><span style="color: #bbbbbb">
     </span><span style="color: #d14">&#34;visualstudioexptteam.vscodeintellicode&#34;</span><span style="background-color: #f8f8f8">,</span><span style="color: #bbbbbb">
     </span><span style="color: #d14">&#34;ics.japanese-proofreading&#34;</span><span style="background-color: #f8f8f8">,</span><span style="color: #bbbbbb">
-		</span><span style="color: #d14">&#34;jebbs.plantuml&#34;</span><span style="background-color: #f8f8f8">,</span><span style="color: #bbbbbb">
-		</span><span style="color: #d14">&#34;yog.yog-plantuml-highlight&#34;</span><span style="color: #bbbbbb">
+    </span><span style="color: #d14">&#34;jebbs.plantuml&#34;</span><span style="background-color: #f8f8f8">,</span><span style="color: #bbbbbb">
+    </span><span style="color: #d14">&#34;yog.yog-plantuml-highlight&#34;</span><span style="color: #bbbbbb">
   </span><span style="background-color: #f8f8f8">],</span><span style="color: #bbbbbb">
   </span><span style="color: #990000;font-weight: bold">&#34;initializeCommand&#34;</span><span style="background-color: #f8f8f8">:[</span><span style="color: #bbbbbb"> <i class="conum" data-value="4"></i><b>(4)</b>
     </span><span style="color: #d14">&#34;docker&#34;</span><span style="background-color: #f8f8f8">,</span><span style="color: #bbbbbb">
@@ -883,12 +883,6 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
         <span>AsciiDoc 執筆環境構築</span>
       </a>
     </nav>
-
-
-
-
-
-
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share hadv-book 構築 - その１ on twitter"
         href="https://twitter.com/intent/tweet/?text=hadv-book%20%e6%a7%8b%e7%af%89%20-%20%e3%81%9d%e3%81%ae%ef%bc%91&amp;url=%2fnotes%2fconstruction%2fdocument-env%2f20210328-01%2f&amp;hashtags=Hugo%2cAsciidoctor%2cDocker%2cVSCode">
@@ -936,7 +930,8 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
 
   </footer>
 </article>
-    </main><footer class="footer">
+    </main>
+    <footer class="footer">
     <span>&copy; 2021 <a href="/">カイハツNoヒト</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
@@ -951,14 +946,17 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
     </button>
 </a>
 
-
-
 <script>
     window.onload = function () {
         if (localStorage.getItem("menu-scroll-position")) {
             document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
         }
     }
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
@@ -977,6 +975,9 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
             }
         });
     });
+
+</script>
+<script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
@@ -987,10 +988,6 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
             mybutton.style.opacity = "0";
         }
     };
-
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
 
 </script>
 <script>
@@ -1005,7 +1002,6 @@ docker <span style="color: #0086B3">exec</span> <span style="color: #000080">-i<
     })
 
 </script>
-
 </body>
 
 </html>

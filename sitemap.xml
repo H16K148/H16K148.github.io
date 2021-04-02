@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/docker/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/notes/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/notes/construction/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/notes/construction/learn-env/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/python/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/vscode/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/notes/construction/learn-env/20210331-01/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
+  </url><url>
+    <loc>/notes/construction/learn-env/</loc>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
+  </url><url>
+    <loc>/notes/construction/</loc>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/categories/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</loc>
-    <lastmod>2021-03-31T23:00:00+09:00</lastmod>
+    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/asciidoctor/</loc>
     <lastmod>2021-03-28T23:00:00+09:00</lastmod>
@@ -70,12 +70,12 @@
   </url><url>
     <loc>/archives/</loc>
   </url><url>
-    <loc>/notes/learn/</loc>
-  </url><url>
-    <loc>/notes/learn/data-science/</loc>
-  </url><url>
     <loc>/search/</loc>
   </url><url>
     <loc>/series/</loc>
+  </url><url>
+    <loc>/notes/learn/data-science/</loc>
+  </url><url>
+    <loc>/notes/learn/</loc>
   </url>
 </urlset>

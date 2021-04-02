@@ -12,7 +12,7 @@
       <pubDate>Wed, 31 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/learn-env/20210331-01/</guid>
-      <description>この文書はまだドラフトです。 はじめに 必須要件 以下が可能な環境を構築する 書籍「 Python による AI プログラミング入門 」による学習に必要な Python 環境 1. インスト</description>
+      <description>Python3&#43;Docker&#43;VSCode で作る学習環境 - 2021/3</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Sun, 28 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/document-env/20210328-01/</guid>
-      <description>はじめに hadv とは何か hadv とは、Hugo, Asciidoctor, Docker, VSCode を上手に使って構築したドキュメント執筆環境を私が勝手に名付けたものです。2021 年 3 月時点でこのよ</description>
+      <description>hadv（Hugo&#43;Asciidoctor&#43;Docker&#43;VSCode）で作るドキュメント執筆環境</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Sun, 21 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/about/</guid>
-      <description>Yokohama - night view. はじめまして 私は現在、データサイエンスに興味を持ち、学習を開始したところです。 このウェブサイトは、私の個人プロジェクトやデータサイエ</description>
+      <description>簡単な自己紹介です。</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@
       <pubDate>Sun, 21 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/notes/construction/document-env/20210321-01/</guid>
-      <description>はじめに この文書では、Windows10 環境において、Asciidoctor の 公式Dockerイメージを中心に、 VSCodeの拡張機能 「As</description>
+      <description>Windows10 環境で Docker を使って Asciidoc を執筆する環境を作ります。</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@
       <pubDate>Sun, 21 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/posts/2021/03/2021-03-21-my-1st-github-page/</guid>
-      <description>はじめに&amp;hellip; Gitの開発が 2005年に開始され、2008年にはGitHubが登場しました。 当時、私は「音声対話システム」を作って</description>
+      <description>はじめての投稿です。</description>
     </item>
     
     <item>
@@ -57,26 +57,10 @@
       <pubDate>Mon, 01 Mar 2021 23:00:00 +0900</pubDate>
       
       <guid>/portfolio/</guid>
-      <description>作成中 作成中</description>
+      <description>コンテンツの説明</description>
     </item>
     
-    <item>
-      <title>Archive</title>
-      <link>/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/archives/</guid>
-      <description>archives</description>
-    </item>
     
-    <item>
-      <title>Search</title>
-      <link>/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/search/</guid>
-      <description>search</description>
-    </item>
     
   </channel>
 </rss>

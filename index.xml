@@ -5,7 +5,16 @@
     <link>/</link>
     <description>Recent content on カイハツNoヒト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Mar 2021 23:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 10:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日記：「ハマる」は嫌だが財産</title>
+      <link>/posts/2021/04/2021-04-03-experience-is-a-fortune/</link>
+      <pubDate>Sat, 03 Apr 2021 10:00:00 +0900</pubDate>
+      
+      <guid>/posts/2021/04/2021-04-03-experience-is-a-fortune/</guid>
+      <description>苦しいことばかりじゃないんです。</description>
+    </item>
+    
     <item>
       <title>データサイエンス学習のための Python 環境構築</title>
       <link>/notes/construction/learn-env/20210331-01/</link>

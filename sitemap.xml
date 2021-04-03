@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-04-03T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-04-03T10:00:00+09:00</lastmod>
+  </url><url>
+    <loc>/posts/2021/04/2021-04-03-experience-is-a-fortune/</loc>
+    <lastmod>2021-04-03T10:00:00+09:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
@@ -18,9 +27,6 @@
     <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/vscode/</loc>
-    <lastmod>2021-04-02T09:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-04-02T09:00:00+09:00</lastmod>
   </url><url>
     <loc>/notes/construction/learn-env/20210331-01/</loc>
@@ -54,9 +60,6 @@
     <lastmod>2021-03-21T23:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/github/</loc>
-    <lastmod>2021-03-21T23:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2021-03-21T23:00:00+09:00</lastmod>
   </url><url>
     <loc>/posts/2021/03/2021-03-21-my-1st-github-page/</loc>
